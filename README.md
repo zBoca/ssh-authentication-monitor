@@ -22,3 +22,13 @@ The program parses SSH authentication logs, finds the failed password entries, g
 ![Brute-force detection](screenshots/test_case_2.png)
 ![Brute-force detection](screenshots/test_case_3.png)
 ![Brute-force detection](screenshots/incident_report.png)
+
+## Limitations
+This project is intended as a learning / portfolio project rather than a production SIEM. As a result, it only analyzes specific individual log files rather than continuously taking in logs from a logging platform
+
+## Author
+Jacob Anderson
+
+Computer Science Grad interested in IT and cybersecurity.
+https://www.linkedin.com/in/jacob-anderson-834886306/
+jacobanderson.xyz
