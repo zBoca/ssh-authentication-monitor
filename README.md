@@ -33,4 +33,4 @@ Computer Science Grad interested in IT and cybersecurity.
 
 https://www.linkedin.com/in/jacob-anderson-834886306/
 
-jacobanderson.xyz
+www.jacobanderson.xyz
