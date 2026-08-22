@@ -1,0 +1,41 @@
+Aug 22 16:43:09 LinuxVM systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Aug 22 16:43:09 LinuxVM sshd[1295]: Server listening on 0.0.0.0 port 22.
+Aug 22 16:43:09 LinuxVM sshd[1295]: Server listening on :: port 22.
+Aug 22 16:43:09 LinuxVM systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Aug 22 16:43:21 LinuxVM sshd-session[1298]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1  user=soc-test
+Aug 22 16:43:24 LinuxVM sshd-session[1298]: Failed password for soc-test from 192.168.56.1 port 58136 ssh2
+Aug 22 16:43:30 LinuxVM sshd-session[1298]: Failed password for soc-test from 192.168.56.1 port 58136 ssh2
+Aug 22 16:43:34 LinuxVM sshd-session[1298]: Failed password for soc-test from 192.168.56.1 port 58136 ssh2
+Aug 22 16:43:35 LinuxVM sshd-session[1298]: Connection reset by authenticating user soc-test 192.168.56.1 port 58136 [preauth]
+Aug 22 16:43:35 LinuxVM sshd-session[1298]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1  user=soc-test
+Aug 22 16:44:03 LinuxVM unix_chkpwd[1305]: password check failed for user (soc-test)
+Aug 22 16:44:03 LinuxVM sshd-session[1303]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1  user=soc-test
+Aug 22 16:44:05 LinuxVM sshd-session[1303]: Failed password for soc-test from 192.168.56.1 port 58174 ssh2
+Aug 22 16:44:09 LinuxVM sshd-session[1303]: Failed password for soc-test from 192.168.56.1 port 58174 ssh2
+Aug 22 16:44:17 LinuxVM sshd-session[1303]: Failed password for soc-test from 192.168.56.1 port 58174 ssh2
+Aug 22 16:44:18 LinuxVM sshd-session[1303]: Connection reset by authenticating user soc-test 192.168.56.1 port 58174 [preauth]
+Aug 22 16:44:18 LinuxVM sshd-session[1303]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1  user=soc-test
+Aug 22 16:44:30 LinuxVM unix_chkpwd[1310]: password check failed for user (soc-test)
+Aug 22 16:44:30 LinuxVM sshd-session[1308]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1  user=soc-test
+Aug 22 16:44:33 LinuxVM sshd-session[1308]: Failed password for soc-test from 192.168.56.1 port 58190 ssh2
+Aug 22 16:44:37 LinuxVM unix_chkpwd[1311]: password check failed for user (soc-test)
+Aug 22 16:44:38 LinuxVM sshd-session[1308]: Failed password for soc-test from 192.168.56.1 port 58190 ssh2
+Aug 22 16:44:41 LinuxVM unix_chkpwd[1312]: password check failed for user (soc-test)
+Aug 22 16:44:43 LinuxVM sshd-session[1308]: Failed password for soc-test from 192.168.56.1 port 58190 ssh2
+Aug 22 16:44:44 LinuxVM sshd-session[1308]: Connection reset by authenticating user soc-test 192.168.56.1 port 58190 [preauth]
+Aug 22 16:44:44 LinuxVM sshd-session[1308]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1  user=soc-test
+Aug 22 16:44:52 LinuxVM unix_chkpwd[1315]: password check failed for user (soc-test)
+Aug 22 16:44:52 LinuxVM sshd-session[1313]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1  user=soc-test
+Aug 22 16:44:55 LinuxVM sshd-session[1313]: Failed password for soc-test from 192.168.56.1 port 58205 ssh2
+Aug 22 16:44:56 LinuxVM unix_chkpwd[1316]: password check failed for user (soc-test)
+Aug 22 16:44:58 LinuxVM sshd-session[1313]: Failed password for soc-test from 192.168.56.1 port 58205 ssh2
+Aug 22 16:45:01 LinuxVM sshd-session[1313]: Failed password for soc-test from 192.168.56.1 port 58205 ssh2
+Aug 22 16:45:02 LinuxVM sshd-session[1313]: Connection reset by authenticating user soc-test 192.168.56.1 port 58205 [preauth]
+Aug 22 16:45:02 LinuxVM sshd-session[1313]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1  user=soc-test
+Aug 22 16:45:09 LinuxVM unix_chkpwd[1320]: password check failed for user (soc-test)
+Aug 22 16:45:09 LinuxVM sshd-session[1318]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1  user=soc-test
+Aug 22 16:45:11 LinuxVM sshd-session[1318]: Failed password for soc-test from 192.168.56.1 port 58223 ssh2
+Aug 22 16:45:14 LinuxVM sshd-session[1318]: Failed password for soc-test from 192.168.56.1 port 58223 ssh2
+Aug 22 16:45:19 LinuxVM sshd-session[1318]: Failed password for soc-test from 192.168.56.1 port 58223 ssh2
+Aug 22 16:45:19 LinuxVM sshd-session[1318]: Connection reset by authenticating user soc-test 192.168.56.1 port 58223 [preauth]
+Aug 22 16:45:19 LinuxVM sshd-session[1318]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1  user=soc-test

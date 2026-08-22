@@ -1,0 +1,18 @@
+
+SSH SECURITY INCIDENT REPORT
+==============================
+
+Generated on: 2026-08-22 19:07:21
+Incidents Detected: 1
+
+INCIDENT #1
+------------------
+Source IP: 192.168.56.1
+Failed Attempts: 6
+Detection Window: 60 seconds
+Severity: HIGH
+Detection Type: SSH Brute-Force Attempt
+
+Recommended Actions:
+Investigate source IPs and review authentication logs for additional suspicious activity.
+

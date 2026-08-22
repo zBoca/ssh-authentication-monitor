@@ -1,0 +1,7 @@
+Aug 22 16:43:09 LinuxVM systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Aug 22 16:43:09 LinuxVM sshd[1295]: Server listening on 0.0.0.0 port 22.
+Aug 22 16:43:09 LinuxVM sshd[1295]: Server listening on :: port 22.
+Aug 22 16:43:09 LinuxVM systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Aug 22 16:43:21 LinuxVM sshd-session[1298]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1  user=soc-test
+Aug 22 16:43:24 LinuxVM sshd-session[1298]: Failed password for soc-test from 192.168.56.1 port 58136 ssh2
+Aug 22 16:43:30 LinuxVM sshd-session[1298]: Failed password for soc-test from 192.168.56.1 port 58136 ssh2

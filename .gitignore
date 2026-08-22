@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+auth.log
+secure
+syslog
+
+*.tmp
