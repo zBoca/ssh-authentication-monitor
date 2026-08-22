@@ -30,5 +30,7 @@ This project is intended as a learning / portfolio project rather than a product
 Jacob Anderson
 
 Computer Science Grad interested in IT and cybersecurity.
+
 https://www.linkedin.com/in/jacob-anderson-834886306/
+
 jacobanderson.xyz
